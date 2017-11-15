@@ -1,5 +1,5 @@
 {
-  "name": "redux-little-router",
+  "name": "redux-little-router-reactless",
   "version": "14.2.3",
   "description": "A barebones routing solution for Redux applications.",
   "main": "lib/index.js",
@@ -102,11 +102,6 @@
     "postcss-loader": "^2.0.6",
     "postcss-reporter": "^4.0.0",
     "prettier": "^1.5.2",
-    "react": "^15.4.2",
-    "react-addons-test-utils": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-hot-loader": "^1.3.1",
-    "react-redux": "^5.0.3",
     "redux": "^3.6.0",
     "redux-logger": "^3.0.0",
     "redux-loop": "^2.2.2",
@@ -124,9 +119,6 @@
     "webpack-stats-plugin": "^0.1.4"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0",
-    "react-dom": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0",
-    "react-redux": "^4.0.0 || ^5.0.0",
     "redux": "^3.0.0"
   },
   "nyc": {

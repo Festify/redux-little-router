@@ -25,9 +25,6 @@ import routerForHash from './environment/hash-router';
 import routerForExpress from './environment/express-router';
 import routerForHapi from './environment/hapi-router';
 
-import { Link, PersistentQueryLink } from './components/link';
-import Fragment from './components/fragment';
-
 export {
   // High-level Redux API
   routerForBrowser,
@@ -35,10 +32,6 @@ export {
   routerForHapi,
   routerForHash,
   initializeCurrentLocation,
-  // React API
-  Link,
-  PersistentQueryLink,
-  Fragment,
   // Public action creators
   push,
   replace,

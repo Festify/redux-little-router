@@ -3,6 +3,7 @@
   "version": "14.2.3",
   "description": "A barebones routing solution for Redux applications.",
   "main": "lib/index.js",
+  "module": "src/index.js",
   "scripts": {
     "preversion": "npm run check",
     "version": "npm run clean && npm run build && git add -A dist",

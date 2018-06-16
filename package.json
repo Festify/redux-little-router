@@ -1,5 +1,5 @@
 {
-  "name": "redux-little-router",
+  "name": "@festify/redux-little-router",
   "version": "15.1.1",
   "description": "A barebones routing solution for Redux applications.",
   "main": "lib/index.js",
